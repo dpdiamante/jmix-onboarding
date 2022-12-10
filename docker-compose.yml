@@ -5,7 +5,7 @@ services:
   onboardingdb:
     image: 'postgres:14.0-alpine'
     environment:
-      POSTGRES_USER: onboarding
+      POSTGRES_USER: sa
       POSTGRES_DB: onboarding
       POSTGRES_PASSWORD: password
     ports: 
