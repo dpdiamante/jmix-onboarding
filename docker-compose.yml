@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  onboardingdb:
+    image: 'postgres:14.0-alpine'
+    environment:
+      POSTGRES_USER: onboarding
+      POSTGRES_DB: onboarding
+      POSTGRES_PASSWORD: password
+    ports: 
+      - "5432:5432"
